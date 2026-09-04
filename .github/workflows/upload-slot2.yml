@@ -84,7 +84,7 @@ jobs:
           echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" >> .env
           echo "DRY_RUN=${{ github.event.inputs.dry_run }}" >> .env
 
-      - name: Run slot 1
+      - name: Run slot 2
         run: |
           ARGS="--slot 2 --channel ${{ github.event.inputs.channel || 'channel_6' }}"
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi

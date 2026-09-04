@@ -10,7 +10,7 @@ channels:
     google_credentials_file: "credentials/channel_6_client_secret.json"
     oauth_token_file: "tokens/channel_6_token.json"
 
-    videos_per_day: 1
+    videos_per_day: 2
     description_footer: ""
     default_tags: [deep sea, ocean, sea creatures, deep ocean, thalassophobia,
                    marine life, ocean facts, deep sea creatures, underwater,
@@ -56,5 +56,6 @@ channels:
         - "NOBODY GOES HERE"
         - "THE OCEAN IS TERRIFYING"
 
-    slot_publish_times_utc:               # this IS the cron fire time
-      1: "23:00"                          # 7:00 PM US Eastern (US evening prime) = 4:30 AM IST
+    slot_publish_times_utc:               # these ARE the cron fire times
+      1: "16:00"                          # 12:00 PM US Eastern (US midday scroll) = 9:30 PM IST
+      2: "23:00"                          # 7:00 PM US Eastern (US evening prime)  = 4:30 AM IST

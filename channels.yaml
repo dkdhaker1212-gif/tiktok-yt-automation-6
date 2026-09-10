@@ -3,8 +3,8 @@
 
 channels:
   - id: channel_6                         # unique; used in DB, logs, secret names
-    tiktok_username: "deepoceanusa"       # no @  -- deep sea creatures, ocean depths, thalassophobia
-    youtube_channel_name: "Trench Unknown"
+    tiktok_username: "leepinkclean"       # no @  -- pressure-washing / overgrown outdoor-space transformations ("giving neglected spaces a second chance", often free for people in need). 47.9K followers / 909K likes, wholesome + oddly-satisfying before/after, pure TikTok-native (no YouTube channel). Swapped in from the dead "Trench Unknown" ocean source @deepoceanusa (0 subs / 33 views after 11 vids, source exhausted). Ocean niche abandoned - the dedicated faceless sources are all tiny/private/AI-slop.
+    youtube_channel_name: "Grime and Shine"
     owner_email: "dineshdineshdhaker1@gmail.com"
 
     google_credentials_file: "credentials/channel_6_client_secret.json"
@@ -12,16 +12,16 @@ channels:
 
     videos_per_day: 2
     description_footer: ""
-    default_tags: [deep sea, ocean, sea creatures, deep ocean, thalassophobia,
-                   marine life, ocean facts, deep sea creatures, underwater,
-                   scary ocean, mariana trench, sea monsters, nature, wildlife,
-                   ocean mystery, abyss, fascinating, terrifying, blue planet]
-    youtube_category_id: "24"             # 24 Entertainment (broad ocean/nature reach)
+    default_tags: [pressure washing, power washing, satisfying, oddly satisfying, before and after,
+                   transformation, deep clean, driveway cleaning, patio cleaning, cleanup,
+                   satisfying cleaning, overgrown, garden makeover, restoration, soft washing,
+                   asmr cleaning, cleaning satisfying, so satisfying, satisfying video, curb appeal]
+    youtube_category_id: "24"             # 24 Entertainment (oddly-satisfying / broad reach)
     enabled: true
     max_retry_days: 7
     shorts_max_seconds: 180
     min_video_seconds: 12                 # skip clips shorter than 12s
-    max_video_seconds: 170                # keep it in Shorts range
+    max_video_seconds: 175                # keep it in Shorts range
     upload_mode: popular_only             # always pick the most-viewed unposted video
     max_download_candidates: 20
 
@@ -56,12 +56,12 @@ channels:
       enabled: true
       hook_source: title
       position: bottom
-      accent_rgb: [45, 212, 191]
+      accent_rgb: [46, 204, 150]
       hook_templates:
-        - "WHAT IS THIS?"
-        - "DEEPER THAN YOU THINK"
-        - "NOBODY GOES HERE"
-        - "THE OCEAN IS TERRIFYING"
+        - "THE TRANSFORMATION"
+        - "10 YEARS OF GRIME"
+        - "SO SATISFYING"
+        - "BEFORE vs AFTER"
 
     slot_publish_times_utc:               # these ARE the cron fire times
       1: "16:00"                          # 12:00 PM US Eastern (US midday scroll) = 9:30 PM IST

@@ -17,7 +17,7 @@ channels:
                    toddler funny, funny baby videos, cutest baby, baby humor,
                    wholesome, family, baby compilation, so cute, baby fails, cute kids]
     youtube_category_id: "23"             # 23 Comedy (funny baby moments)
-    enabled: true
+    enabled: false                        # PAUSED 2026-09-18: no traction, stop posting (see memory)
     max_retry_days: 7
     shorts_max_seconds: 180
     min_video_seconds: 12                 # skip clips shorter than 12s
